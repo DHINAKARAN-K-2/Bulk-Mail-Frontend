@@ -38,7 +38,7 @@ function App() {
     }
 
     setStatus(true);
-    axios.post("http://localhost:5000/sendemail", {
+    axios.post("https://bulk-mail-backend-xetj.onrender.com/sendemail", {
       senderEmail,
       senderPass,
       sub,
