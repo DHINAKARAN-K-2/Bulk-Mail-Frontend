@@ -96,7 +96,7 @@ function App() {
         <SendButton onClick={sendMail} loading={status} />
 
         <p className="text-xs text-center text-gray-400 mt-4">
-          ⚠ Use Gmail App Password only
+           Use Gmail App Password only
         </p>
 
       </div>
